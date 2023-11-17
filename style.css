@@ -1,0 +1,37 @@
+section{
+    border: 2px solid red ;
+}
+
+.wanda{
+    display:flex;
+     align-items: center; /* alinhamento do eixo transversal */
+     justify-content: center; /* alinhamento do eixo principal */
+     gap: 4rem; /* espaçamento entre os elementos do display flex*/
+
+     margin-bottom: 1rem;
+}
+
+
+.wanda img{
+    width: 20rem;
+}
+
+.wanda p{
+    width: 30rem;
+    text-align: center;
+}
+
+.wanda818{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 4rem;
+
+    margin-bottom: 1rem;
+}
+
+.wanda818 img{
+    width: 20rem;
+}
+
